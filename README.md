@@ -4,6 +4,8 @@ Simple backend project using frameworks Node.js, Express.js, and MongoDB to make
 
 User authenication done using JWT, database modeled using MongoDB and Mongoose. Global error handling included along with email reminders via Upstash.
 
+Arcjet was used for bot protection and rate limiting.
+
 ****
 
 # Prerequisites 
@@ -47,7 +49,7 @@ JWT_SECRET=_
 JWT_EXPIRES_IN=1d
 
 # ARCJET
-ARCJET_KEY=
+ARCJET_KEY=_
 ARCJET_ENV="development"
 
 # UPSTASH 
